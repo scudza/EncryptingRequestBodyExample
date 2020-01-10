@@ -5,7 +5,7 @@
 
         <variable
                 name="vm"
-                type="com.example.encryptingrequestbody.Viewmodel"/>
+                type="com.example.hmacrequestbody.Viewmodel"/>
     </data>
 
     <LinearLayout

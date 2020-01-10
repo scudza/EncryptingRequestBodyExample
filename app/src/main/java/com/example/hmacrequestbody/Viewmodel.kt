@@ -1,4 +1,4 @@
-package com.example.encryptingrequestbody
+package com.example.hmacrequestbody
 
 import androidx.lifecycle.ViewModel
 

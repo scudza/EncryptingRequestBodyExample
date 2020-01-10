@@ -1,4 +1,4 @@
-package com.example.encryptingrequestbody
+package com.example.hmacrequestbody
 
 data class Transaction(
     val accountHolder: String,

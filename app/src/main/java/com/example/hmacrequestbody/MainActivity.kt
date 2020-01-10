@@ -1,9 +1,9 @@
-package com.example.encryptingrequestbody
+package com.example.hmacrequestbody
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
-import com.example.encryptingrequestbody.databinding.ActivityMainBinding
+import com.example.hmacrequestbody.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
 
