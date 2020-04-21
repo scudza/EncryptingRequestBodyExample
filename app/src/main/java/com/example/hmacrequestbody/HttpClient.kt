@@ -48,8 +48,7 @@ class HttpClient {
     @Throws(IOException::class)
     fun run(json: JSONObject) {
         val bodyString = json.toString()
-        val timeStamp = System.currentTimeMillis()
-        val auth = timeStamp.toString() + URL + bodyString
+        val auth = URL + bodyString
         val hmac = getHmacHash(auth, clientSecret())
         val body = json.toString().toRequestBody(JSON)
         val request = Request.Builder()
